@@ -1,7 +1,7 @@
 from uuid import uuid4
 
 from authz.authz import db
-from authz.config import Config
+from authz.config import Config  
 from authz.util import now, user_expires_at
 
 class User(db.Model):
