@@ -32,4 +32,4 @@ class UserResource(Resource):
     DELETE /users --> Not allowed.
     DELETE /users/<user_id> --> Delete user.
     """
-    return UserController.update_user(user_id)
+    return UserController.delete_user(user_id)
