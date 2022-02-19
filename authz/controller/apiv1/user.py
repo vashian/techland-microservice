@@ -1,4 +1,3 @@
-import code
 from flask import request
 from authz.authz import db
 from authz.util import user_expires_at, jsonify, now
